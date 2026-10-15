@@ -1,0 +1,102 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c8e94161-cfdb-5e08-8615-e25ded02a890",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T06:10:30Z",
+    "component": {
+      "type": "application",
+      "name": "CLIP_AS_SERVICE",
+      "version": "9fd31f7ec493",
+      "bom-ref": "pkg:generic/anticloud/CLIP_AS_SERVICE@9fd31f7ec493",
+      "purl": "pkg:generic/anticloud/CLIP_AS_SERVICE@9fd31f7ec493",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "9fd31f7ec493bc9bca3077e192671595a33738d4"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "bentoml",
+      "version": ">=1.0.20",
+      "purl": "pkg:pypi/bentoml@1.0.20",
+      "bom-ref": "pypi/bentoml@>=1.0.20"
+    },
+    {
+      "type": "library",
+      "name": "transformers",
+      "version": "unspecified",
+      "purl": "pkg:pypi/transformers",
+      "bom-ref": "pypi/transformers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "accelerate",
+      "version": "unspecified",
+      "purl": "pkg:pypi/accelerate",
+      "bom-ref": "pypi/accelerate@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "optimum",
+      "version": "unspecified",
+      "purl": "pkg:pypi/optimum",
+      "bom-ref": "pypi/optimum@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.0.0",
+      "purl": "pkg:pypi/pydantic@2.0.0",
+      "bom-ref": "pypi/pydantic@>=2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "Pillow",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pillow",
+      "bom-ref": "pypi/Pillow@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "open-clip-torch",
+      "version": "unspecified",
+      "purl": "pkg:pypi/open-clip-torch",
+      "bom-ref": "pypi/open-clip-torch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "==2.0.0",
+      "purl": "pkg:pypi/torch@2.0.0",
+      "bom-ref": "pypi/torch@==2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "typer",
+      "version": "unspecified",
+      "purl": "pkg:pypi/typer",
+      "bom-ref": "pypi/typer@unspecified"
+    }
+  ]
+}
